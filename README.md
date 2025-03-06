@@ -19,19 +19,6 @@ Features:
 - Provides a Menu-driven interface for easy interaction.
 - Validates user input for accurate calculations.
 
-Requirements:
-- Java 8 or above
-- Command Line or Terminal
-- Any Java IDE (Optional: IntelliJ IDEA, VS Code, Eclipse)
-
-Installation & Running:
-1. Clone the Repository:
-   git clone https://github.com/YOUR_USERNAME/Shape-Calculator.git
-   cd Shape-Calculator
-
-2. Compile and Run:
-   javac *.java
-   java Main
 
 Example Usage:
 - The program will display a menu allowing users to select a shape.
@@ -53,19 +40,7 @@ Shape: Circle
 Area: 78.54
 Perimeter: 31.42
 
-Project Structure:
-Shape-Calculator/
-│── src/
-│   ├── Shape.java (Abstract class for all shapes)
-│   ├── Volume.java (Interface for 3D shape volume calculations)
-│   ├── Circle.java (Implements Shape - Circle)
-│   ├── Rectangle.java (Implements Shape - Rectangle)
-│   ├── Square.java (Implements Shape - Square)
-│   ├── Sphere.java (Implements Shape & Volume - Sphere)
-│   ├── Cylinder.java (Implements Shape & Volume - Cylinder)
-│   ├── Main.java (Menu-driven program)
-│── README.txt (Project Documentation)
-│── Shape-Calculator.pdf (Submission PDF with GitHub Link)
+
 
 Methods & Functions:
 - Shape(String shape) - Constructor for Shape class.
